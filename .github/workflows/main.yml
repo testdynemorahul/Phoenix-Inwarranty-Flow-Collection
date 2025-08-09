@@ -54,11 +54,11 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: ${{ secrets.EMAIL.USERNAME }}
-          password: ${{ secrets.EMAIL.PASSWORD }}
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
           subject: Phoenix Inwarranty Flow Test Execution Notification
           to: rahulprajapati9532@gmail.com
-          from: ${{ secrets.EMAIL.USERNAME }}
+          from: ${{ secrets.EMAIL_USERNAME }}
           body: |
                 Hi, 
                 Phoenix Inwarranty Flow Test has been executed. The Report has been published and the url
