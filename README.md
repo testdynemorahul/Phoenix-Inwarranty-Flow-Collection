@@ -3,7 +3,7 @@
 This repository is a demonstration for POC for integrating postman tests with github actions. The tests are written in Postman and they are executed on the VM with the help of newman and newman-reporter-htmlextra.
 Github Actions will trigger the project execution on every push to the main branch. You can also execute the project manually using workflow_dispatch. The project runs on the schedule time with the help of the cron job
 
-The Html report Archived and kept in the artifact section for the team to download it. Along with that they can view the report directly from github page : https://testdynemorahul.github.io/Phoenix-Inwarranty-Flow-Collection/.
+The Html report Archived and kept in the artifact section for the team to download it. Along with that they can view the report directly from github page : https://rahulpsdet.github.io/Phoenix-Inwarranty-Flow-Collection/.
 The latest report is mailed to the team member using GMAIL SMTP.
 
 ## About Me ##
@@ -29,12 +29,13 @@ Hi My name is Rahul Prajapati. I have 6 years of experiance in Automation and Ma
 9. AWS EC2 Instances for Self hosted github runner.
 
 ## Github Pages ##
-You can directly view the latest test report of the Postman from the Github page link:https://testdynemorahul.github.io/Phoenix-Inwarranty-Flow-Collection/
+You can directly view the latest test report of the Postman from the Github page link:https://rahulpsdet.github.io/Phoenix-Inwarranty-Flow-Collection/
+
 
 ## HTML Report ##
 The Report will be created in the newman folder
 
-![Postman Report](https://raw.githubusercontent.com/testdynemorahul/Phoenix-Inwarranty-Flow-Collection/Static-Content/Newman-Report.PNG)
+![Postman Report](https://raw.githubusercontent.com/rahulpsdet/Phoenix-Inwarranty-Flow-Collection/Static-Content/Newman-Report.PNG)
 
 ## Project Structure  ##
 ```
@@ -46,7 +47,7 @@ Phoenix Inwarranty Flow Collection
 ```
 ## How To Run the Project? ##
 You can run the project on your local system for that:
-1. Clone the project on local system: https://github.com/testdynemorahul/Phoenix-Inwarranty-Flow-Collection.git
+1. Clone the project on local system: https://github.com/rahulpsdet/Phoenix-Inwarranty-Flow-Collection.git
 2. Install Nodesjs and NPM from: https://nodejs.org/en
 3. Install Newman using command ```npm install -g newman```
 4. Install Newman-Reporter-extra using command: ```npm install -g newman-reporter-htmlextra```
