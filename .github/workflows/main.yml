@@ -62,6 +62,6 @@ jobs:
           body: |
                 Hi, 
                 Phoenix Inwarranty Flow Test has been executed. The Report has been published and the url
-                is: https://testdynemorahul.github.io/Phoenix-Inwarranty-Flow-Collection/
+                is: https://rahulpsdet.github.io/Phoenix-Inwarranty-Flow-Collection/
         
             
